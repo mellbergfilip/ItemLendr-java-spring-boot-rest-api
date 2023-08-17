@@ -9,5 +9,6 @@ public enum ItemCategory {
     SOFTWARE,
     GAMING,
     STORAGE,
-    FURNITURE
+    FURNITURE,
+    TESTING
 }
