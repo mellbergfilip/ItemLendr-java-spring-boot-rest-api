@@ -1,6 +1,7 @@
-package com.fmellberg.itemlendr.model.entity;
+package com.fmellberg.itemlendr.booking.model;
 
-import com.fmellberg.itemlendr.model.BookingStatus;
+import com.fmellberg.itemlendr.item.model.ItemEntity;
+import com.fmellberg.itemlendr.user.model.UserEntity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

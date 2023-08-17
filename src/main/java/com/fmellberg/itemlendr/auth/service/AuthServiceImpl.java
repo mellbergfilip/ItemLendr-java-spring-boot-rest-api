@@ -1,10 +1,9 @@
-package com.fmellberg.itemlendr.service;
+package com.fmellberg.itemlendr.auth.service;
 
 
-import com.fmellberg.itemlendr.model.response.LoginResponse;
+import com.fmellberg.itemlendr.auth.model.LoginResponse;
 import com.fmellberg.itemlendr.security.JwtIssuer;
 import com.fmellberg.itemlendr.security.UserPrincipal;
-import com.fmellberg.itemlendr.service.interfaces.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

@@ -1,4 +1,4 @@
-package com.fmellberg.itemlendr.model;
+package com.fmellberg.itemlendr.booking.model;
 
 public enum BookingStatus {
     PENDING,

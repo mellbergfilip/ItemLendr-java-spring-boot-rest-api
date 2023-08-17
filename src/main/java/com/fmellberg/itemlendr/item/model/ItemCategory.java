@@ -1,4 +1,4 @@
-package com.fmellberg.itemlendr.model;
+package com.fmellberg.itemlendr.item.model;
 
 public enum ItemCategory {
 

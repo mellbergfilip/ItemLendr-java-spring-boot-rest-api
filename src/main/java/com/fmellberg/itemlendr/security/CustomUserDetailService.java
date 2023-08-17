@@ -6,7 +6,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
-import com.fmellberg.itemlendr.service.interfaces.UserService;
+import com.fmellberg.itemlendr.user.service.UserService;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.fmellberg.itemlendr.model.response;
+package com.fmellberg.itemlendr.auth.model;
 
 import lombok.Builder;
 import lombok.Getter;
