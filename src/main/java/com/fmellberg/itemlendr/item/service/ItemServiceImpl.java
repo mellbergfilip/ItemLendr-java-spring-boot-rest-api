@@ -3,7 +3,6 @@ package com.fmellberg.itemlendr.item.service;
 import com.fmellberg.itemlendr.errorhandling.exceptions.ResourceNotFoundException;
 import com.fmellberg.itemlendr.item.model.ItemEntity;
 import com.fmellberg.itemlendr.item.repository.ItemRepository;
-import com.fmellberg.itemlendr.item.service.ItemService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

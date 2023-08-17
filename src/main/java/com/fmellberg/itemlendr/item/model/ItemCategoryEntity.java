@@ -12,9 +12,9 @@ import java.sql.Timestamp;
 @Getter
 @Setter
 @Entity
-@Table(name = "items")
+@Table(name = "item_categories")
 @EntityListeners(AuditingEntityListener.class)
-public class ItemEntity {
+public class ItemCategoryEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,13 +22,6 @@ public class ItemEntity {
     private long id;
     @Column(name = "name", nullable = false)
     private String name;
-    @Column(name = "description")
-    private String description;
-    @Column(name = "available", nullable = false)
-    private boolean available;
-    @ManyToOne
-    @JoinColumn(name = "category_id")
-    private ItemCategoryEntity category;
 
     @CreatedDate
     @Column(name = "created_at")
@@ -36,5 +29,4 @@ public class ItemEntity {
     @LastModifiedDate
     @Column(name = "last_modified")
     private Timestamp lastModified;
-
 }
