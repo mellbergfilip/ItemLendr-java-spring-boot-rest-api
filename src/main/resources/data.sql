@@ -26,3 +26,11 @@ VALUES
     ('Adjustable Standing Desk', 'Height-adjustable desk for ergonomic workspace', true, 'FURNITURE', NOW()),
     ('Smart Thermostat', 'Wi-Fi enabled thermostat for home automation', true, 'ELECTRONICS', NOW()),
     ('Bluetooth Earbuds', 'Wireless earbuds with noise cancellation', true, 'ACCESSORIES', NOW());
+
+INSERT INTO bookings (item_id, user_id, booking_date, start_date, end_date, status, created_at, last_modified)
+VALUES
+    (1, 1, NOW(), NOW(), NOW(), 'PENDING', NOW(), NOW()),
+    (2, 2, NOW(), NOW(), NOW(), 'APPROVED', NOW(), NOW()),
+    (3, 3, NOW(), NOW(), NOW(), 'DECLINED', NOW(), NOW()),
+    (4, 4, NOW(), NOW(), NOW(), 'CANCELED', NOW(), NOW()),
+    (5, 5, NOW(), NOW(), NOW(), 'CHECKEDOUT', NOW(), NOW());
